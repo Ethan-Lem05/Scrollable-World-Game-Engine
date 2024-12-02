@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ScrollableCharacter
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ScrollableCharacter\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ScrollableCharacter()
+comment1.text=\r\n\ builds\ a\ mover\ object\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Mover\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ setMovementValues()
+comment3.text=\r\n\ \ sets\ the\ movement\ values\ for\ the\ character\ before\ they\ move\r\n
+comment4.params=adj\ opp
+comment4.target=double\ atan(double,\ double)
+comment4.text=\r\n\ A\ custom\ atan2\ function\ that\ returns\ the\ correct\ angle\ for\ all\ quadrants.\r\n\r\n\ @param\ adj\ The\ adjacent\ side\r\n\ @param\ opp\ The\ opposite\ side\r\n\ @return\ The\ angle\ in\ radians\r\n
+comment5.params=
+comment5.target=void\ move()
+numComments=6

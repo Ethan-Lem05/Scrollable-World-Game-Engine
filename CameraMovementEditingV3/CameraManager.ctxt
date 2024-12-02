@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CameraManager
+comment0.text=\r\n\ Requires\ a\ tile\ class\ to\ be\ implemented\ with\ a\ TILE_SIDE_LENGTH\ constant\ declared\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=rightShift\ leftShift\ bottomShift\ topShift\ focus\ world\ wholeWorld\ startX\ startY
+comment1.target=CameraManager(int,\ int,\ int,\ int,\ greenfoot.Actor,\ greenfoot.World,\ Tile[][],\ int,\ int)
+comment1.text=\r\n\ creates\ an\ instance\ of\ a\ CameraManager\ for\ a\ world\ -->\ also\ keeps\ track\ of\ whats\ in\ the\ world\r\n\ \r\n\ @param\ rightShift\ position\ on\ the\ right\ of\ the\ screen\ before\ screen\ starts\ scrolling\r\n\ @param\ leftShift\ position\ on\ the\ left\ of\ the\ screen\ before\ screen\ starts\ scrolling\r\n\ @param\ bottomShift\ position\ on\ the\ bottom\ of\ the\ screen\ before\ screen\ starts\ scrolling\r\n\ @param\ topShift\ position\ on\ the\ top\ of\ the\ screen\ before\ screen\ starts\ scrolling\r\n\ @param\ focus\ the\ actor\ that\ the\ camera\ moves\ around\r\n\ @param\ world\ the\ world\ at\ which\ the\ scrolling\ takes\ place\r\n\ @param\ wholeWorld\ the\ larger\ world\ in\ which\ the\ screen\ is\ only\ a\ small\ part\ of\ \r\n\ @param\ realX\ the\ x\ coordinate\ in\ the\ whole\ world\r\n\ @paramY\ realY\ the\ y\ coordinate\ in\ the\ whole\ world\r\n
+comment2.params=
+comment2.target=void\ updateCurrentScreen()
+comment2.text=\r\n\ shifts\ the\ screen\ given\ the\ focus'\ position\ on\ the\ screen\r\n
+comment3.params=dx\ dy
+comment3.target=void\ readjustCurrentScreen(int,\ int)
+comment4.params=
+comment4.target=void\ setInitialPosition()
+comment5.params=
+comment5.target=void\ renderCurrentScreen()
+comment5.text=\r\n\ rerenders\ the\ entire\ current\ screen\r\n
+comment6.params=xDestination\ yDestination
+comment6.target=void\ readjustFocusIntoFrameSmoothly(double,\ double)
+numComments=7

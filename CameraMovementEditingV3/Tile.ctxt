@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tile\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Tile()
+comment1.text=\r\n\ creates\ a\ tile\ object\ using\ the\ tile\ side\ length.\ The\ decoration\ the\ design\ of\ the\ tile\ \r\n\ handled\ by\ the\ subclass\r\n
+comment2.params=tileBackground
+comment2.target=void\ drawTile(greenfoot.GreenfootImage)
+comment2.text=\r\n\ ensures\ that\ all\ child\ classes\ implement\ its\ own\ image\r\n
+numComments=3

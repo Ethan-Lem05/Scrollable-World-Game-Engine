@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mover\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Mover()
+comment1.text=\r\n\ builds\ a\ mover\ object\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Mover\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ checkForPlatform()
+comment3.text=\r\n\ checks\ to\ see\ if\ the\ actor\ is\ at\ the\ edge\ of\ the\ world\ or\ has\ landed\ on\ a\ platform\r\n
+comment4.params=
+comment4.target=void\ setMovementValues()
+comment4.text=\r\n\ \ sets\ the\ movement\ values\ for\ the\ character\ before\ they\ move\r\n
+comment5.params=adj\ opp
+comment5.target=double\ atan(double,\ double)
+comment5.text=\r\n\ A\ custom\ atan2\ function\ that\ returns\ the\ correct\ angle\ for\ all\ quadrants.\r\n\r\n\ @param\ adj\ The\ adjacent\ side\r\n\ @param\ opp\ The\ opposite\ side\r\n\ @return\ The\ angle\ in\ radians\r\n
+comment6.params=
+comment6.target=void\ move()
+comment7.params=
+comment7.target=void\ collideWithPlatform()
+numComments=8
